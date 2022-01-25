@@ -31,7 +31,7 @@ public class threadingg_1 implements PlugInFilter
         startTime = System.currentTimeMillis();
         for(a=y=0;y<h;y++)
         {   
-            executor.execute(new threading2(a, pixels));
+            executor.execute(new threading23(a, pixels));
             for(x=0;x<w;x++)
                 pixelsM[y][x]=pixels[a++]&0xff;
         }
